@@ -1,4 +1,4 @@
-# Cython-Asyncio-Type-Tools
+# Cython-Asyncio-Types-Tool
 An `_asynciomodule.c` generator tool for recast hacking objects from 
 low level asyncio objects with the fastest performance possible. 
 Winloop will likely see this trick utilized and maybe uvloop in a later update.
@@ -9,10 +9,12 @@ As many as uvloop supports which is 3.9-3.16 (3.16) has yet to get a stable
 release but is supported nevertheless...
 
 ## Dependencies
-- msgspec
-- toml-w
-- typer
-- cython obviously and (faster tempita library to go along with it)
+- `msgspec`
+- `toml-w`
+- `typer`
+- `libclang` (preferably it comes with a dynamically linked library file) /
+  `clang` will also work if you can handle the configuration hell.
+- `cython` obviously and (faster tempita library to go along with it)
 
 
 ## Example
