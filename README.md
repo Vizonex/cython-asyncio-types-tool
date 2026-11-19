@@ -10,6 +10,7 @@ release but is supported nevertheless...
 
 ## Dependencies
 - msgspec
+- toml-w
 - typer
 - cython obviously and (faster tempita library to go along with it)
 
