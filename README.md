@@ -9,6 +9,9 @@ As many as uvloop supports which is 3.9-3.16 (3.16) has yet to get a stable
 release but is supported nevertheless...
 
 ## Dependencies
+for running the `gen_object.py` script these are what is needed otherwise
+you can just download the compiled entries `asyncio_types.h` and `asyncio_types.pxd`
+if you want to skip all of these other stuff listed below.
 - `msgspec`
 - `toml-w`
 - `typer`
